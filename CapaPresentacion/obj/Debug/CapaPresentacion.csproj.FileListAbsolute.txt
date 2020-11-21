@@ -1,0 +1,10 @@
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.MainPrincipal.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
