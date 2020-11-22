@@ -8,3 +8,16 @@ C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug
 C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
 C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Inmueble.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Cita.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Usuario.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.ClienteBuscarCliente.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.ClienteRegistrarCliente.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.UsuarioMostrarVentasDeUsuario.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.UsuarioRegistrarUsuario.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaBuscarCita.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaRegistrarCita.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleMostrarInmueble.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.UsuarioMostrarDatosDeUsuario.resources
+C:\Users\OSCAR\source\repos\ProyectoInmobiliariaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleMantenedorDeInmueble1.resources

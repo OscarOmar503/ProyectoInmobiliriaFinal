@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cita.Designer.cs">
+      <DependentUpon>Cita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CitaBuscarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CitaBuscarCita.Designer.cs">
+      <DependentUpon>CitaBuscarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CitaRegistrarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CitaRegistrarCita.Designer.cs">
+      <DependentUpon>CitaRegistrarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteBuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClienteBuscarCliente.Designer.cs">
+      <DependentUpon>ClienteBuscarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClienteRegistrarCliente.Designer.cs">
+      <DependentUpon>ClienteRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inmueble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inmueble.Designer.cs">
+      <DependentUpon>Inmueble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InmuebleMantenedorDeInmueble1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InmuebleMantenedorDeInmueble1.Designer.cs">
+      <DependentUpon>InmuebleMantenedorDeInmueble1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InmuebleMostrarInmueble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InmuebleMostrarInmueble.Designer.cs">
+      <DependentUpon>InmuebleMostrarInmueble.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +108,57 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioMostrarDatosDeUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioMostrarDatosDeUsuario.Designer.cs">
+      <DependentUpon>UsuarioMostrarDatosDeUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioMostrarVentasDeUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioMostrarVentasDeUsuario.Designer.cs">
+      <DependentUpon>UsuarioMostrarVentasDeUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioRegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioRegistrarUsuario.Designer.cs">
+      <DependentUpon>UsuarioRegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cita.resx">
+      <DependentUpon>Cita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CitaBuscarCita.resx">
+      <DependentUpon>CitaBuscarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CitaRegistrarCita.resx">
+      <DependentUpon>CitaRegistrarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClienteBuscarCliente.resx">
+      <DependentUpon>ClienteBuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClienteRegistrarCliente.resx">
+      <DependentUpon>ClienteRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inmueble.resx">
+      <DependentUpon>Inmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleMantenedorDeInmueble1.resx">
+      <DependentUpon>InmuebleMantenedorDeInmueble1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleMostrarInmueble.resx">
+      <DependentUpon>InmuebleMostrarInmueble.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPrincipal.resx">
       <DependentUpon>MainPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +171,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioMostrarDatosDeUsuario.resx">
+      <DependentUpon>UsuarioMostrarDatosDeUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioMostrarVentasDeUsuario.resx">
+      <DependentUpon>UsuarioMostrarVentasDeUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioRegistrarUsuario.resx">
+      <DependentUpon>UsuarioRegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
