@@ -31,14 +31,14 @@ namespace CapaPresentacion
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClienteBuscarCliente));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -64,54 +64,23 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(1062, 597);
             this.panel1.TabIndex = 5;
             // 
-            // button2
+            // dataGridView1
             // 
-            this.button2.Location = new System.Drawing.Point(840, 225);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(178, 62);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "MODIFICAR DATOS";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(82, 191);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(713, 364);
+            this.dataGridView1.TabIndex = 11;
             // 
-            // label1
+            // label2
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(375, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "BUSCAR CLIENTE";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(840, 454);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 62);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "SALIR ";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(840, 335);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(178, 62);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "ELIMINAR CLIENTE";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(684, 125);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(325, 27);
-            this.textBox1.TabIndex = 8;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(500, 128);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(152, 20);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "ESCRIBA AQUÍ:";
             // 
             // comboBox1
             // 
@@ -127,23 +96,54 @@ namespace CapaPresentacion
             this.comboBox1.Size = new System.Drawing.Size(261, 28);
             this.comboBox1.TabIndex = 9;
             // 
-            // label2
+            // textBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(500, 128);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(152, 20);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "ESCRIBA AQUÍ:";
+            this.textBox1.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(684, 125);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(325, 27);
+            this.textBox1.TabIndex = 8;
             // 
-            // dataGridView1
+            // button3
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(82, 191);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(713, 364);
-            this.dataGridView1.TabIndex = 11;
+            this.button3.Location = new System.Drawing.Point(840, 335);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(178, 62);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "INHABILITAR  CLIENTE";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(840, 454);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 62);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "SALIR ";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(840, 225);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(178, 62);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "MODIFICAR DATOS DE CLIENTE";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(375, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(308, 39);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "BUSCAR CLIENTE";
             // 
             // ClienteBuscarCliente
             // 

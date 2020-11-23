@@ -110,7 +110,7 @@ namespace CapaPresentacion
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(178, 62);
             this.button3.TabIndex = 7;
-            this.button3.Text = "ELIMINAR CITA";
+            this.button3.Text = "CANCELAR CITA";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button1

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class InmuebleMantenedorDeInmueble1 : Form
+    public partial class PropietarioRegistrarPropietarioErrorPropietarioEncontrado : Form
     {
-        public InmuebleMantenedorDeInmueble1()
+        public PropietarioRegistrarPropietarioErrorPropietarioEncontrado()
         {
             InitializeComponent();
         }

@@ -110,7 +110,7 @@ namespace CapaPresentacion
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(178, 62);
             this.button3.TabIndex = 7;
-            this.button3.Text = "ELIMINAR USUARIO";
+            this.button3.Text = "INHABILITAR USUARIO";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -128,7 +128,7 @@ namespace CapaPresentacion
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(178, 62);
             this.button2.TabIndex = 5;
-            this.button2.Text = "MODIFICAR DATOS";
+            this.button2.Text = "MODIFICAR DATOS DE USUARIO";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label1

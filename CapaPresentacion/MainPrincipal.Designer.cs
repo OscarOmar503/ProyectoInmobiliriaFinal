@@ -36,6 +36,7 @@ namespace CapaPresentacion
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +47,7 @@ namespace CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button4);
@@ -59,7 +61,7 @@ namespace CapaPresentacion
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(457, 270);
+            this.button3.Location = new System.Drawing.Point(457, 222);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(217, 76);
             this.button3.TabIndex = 6;
@@ -78,7 +80,7 @@ namespace CapaPresentacion
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(133, 270);
+            this.button4.Location = new System.Drawing.Point(133, 222);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(217, 76);
             this.button4.TabIndex = 4;
@@ -109,6 +111,15 @@ namespace CapaPresentacion
             this.label1.TabIndex = 0;
             this.label1.Text = "MENÚ PRINCIPAL";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(133, 314);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(217, 76);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "PROPIETARIO";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // MainPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,6 +142,7 @@ namespace CapaPresentacion
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
     }
 }
 

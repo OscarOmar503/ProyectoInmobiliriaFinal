@@ -54,6 +54,7 @@ namespace CapaPresentacion
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(804, 452);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button2
             // 
@@ -66,7 +67,7 @@ namespace CapaPresentacion
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(298, 266);
+            this.button4.Location = new System.Drawing.Point(297, 268);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(217, 76);
             this.button4.TabIndex = 4;
