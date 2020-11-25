@@ -313,23 +313,23 @@
     <Compile Include="Propietario.Designer.cs">
       <DependentUpon>Propietario.cs</DependentUpon>
     </Compile>
-    <Compile Include="PropietarioMostrarDatosDePropietario.cs">
+    <Compile Include="PropietarioBuscarPropietario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PropietarioMostrarDatosDePropietario.Designer.cs">
-      <DependentUpon>PropietarioMostrarDatosDePropietario.cs</DependentUpon>
+    <Compile Include="PropietarioBuscarPropietario.Designer.cs">
+      <DependentUpon>PropietarioBuscarPropietario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropietarioModificarPropietario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropietarioModificarPropietario.Designer.cs">
+      <DependentUpon>PropietarioModificarPropietario.cs</DependentUpon>
     </Compile>
     <Compile Include="PropietarioRegistrarPropietario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PropietarioRegistrarPropietario.Designer.cs">
       <DependentUpon>PropietarioRegistrarPropietario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PropietarioRegistrarPropietarioErrorPropietarioEncontrado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PropietarioRegistrarPropietarioErrorPropietarioEncontrado.Designer.cs">
-      <DependentUpon>PropietarioRegistrarPropietarioErrorPropietarioEncontrado.cs</DependentUpon>
     </Compile>
     <Compile Include="Usuario.cs">
       <SubType>Form</SubType>
@@ -509,14 +509,14 @@
     <EmbeddedResource Include="Propietario.resx">
       <DependentUpon>Propietario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PropietarioMostrarDatosDePropietario.resx">
-      <DependentUpon>PropietarioMostrarDatosDePropietario.cs</DependentUpon>
+    <EmbeddedResource Include="PropietarioBuscarPropietario.resx">
+      <DependentUpon>PropietarioBuscarPropietario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropietarioModificarPropietario.resx">
+      <DependentUpon>PropietarioModificarPropietario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PropietarioRegistrarPropietario.resx">
       <DependentUpon>PropietarioRegistrarPropietario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PropietarioRegistrarPropietarioErrorPropietarioEncontrado.resx">
-      <DependentUpon>PropietarioRegistrarPropietarioErrorPropietarioEncontrado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario.resx">
       <DependentUpon>Usuario.cs</DependentUpon>
