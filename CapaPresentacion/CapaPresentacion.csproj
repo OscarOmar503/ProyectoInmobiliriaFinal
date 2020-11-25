@@ -83,6 +83,12 @@
     <Compile Include="CitaRegistrarCitaErrorCitaEncontrada.Designer.cs">
       <DependentUpon>CitaRegistrarCitaErrorCitaEncontrada.cs</DependentUpon>
     </Compile>
+    <Compile Include="CiudadIngresarCiudad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CiudadIngresarCiudad.Designer.cs">
+      <DependentUpon>CiudadIngresarCiudad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,12 +155,6 @@
     <Compile Include="InmuebleBancoRegistrarBancoErrorBancoExistente.Designer.cs">
       <DependentUpon>InmuebleBancoRegistrarBancoErrorBancoExistente.cs</DependentUpon>
     </Compile>
-    <Compile Include="InmuebleIngresarCiudad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleIngresarCiudad.Designer.cs">
-      <DependentUpon>InmuebleIngresarCiudad.cs</DependentUpon>
-    </Compile>
     <Compile Include="InmuebleMostrarVentaDeInmueble.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,23 +173,11 @@
     <Compile Include="InmuebleSectorMostrarSector.Designer.cs">
       <DependentUpon>InmuebleSectorMostrarSector.cs</DependentUpon>
     </Compile>
-    <Compile Include="InmuebleSectorMostrarSectorEliminarSector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleSectorMostrarSectorEliminarSector.Designer.cs">
-      <DependentUpon>InmuebleSectorMostrarSectorEliminarSector.cs</DependentUpon>
-    </Compile>
     <Compile Include="InmuebleSectorMostrarSectorModificarSector.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InmuebleSectorMostrarSectorModificarSector.Designer.cs">
       <DependentUpon>InmuebleSectorMostrarSectorModificarSector.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InmuebleSectorRegistrarSector.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleSectorRegistrarSector.Designer.cs">
-      <DependentUpon>InmuebleSectorRegistrarSector.cs</DependentUpon>
     </Compile>
     <Compile Include="InmuebleMantenedorDeInmueble.cs">
       <SubType>Form</SubType>
@@ -244,6 +232,12 @@
     </Compile>
     <Compile Include="InmuebleMostrarInmueble.Designer.cs">
       <DependentUpon>InmuebleMostrarInmueble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InmuebleSectorRegistrarSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InmuebleSectorRegistrarSector.Designer.cs">
+      <DependentUpon>InmuebleSectorRegistrarSector.cs</DependentUpon>
     </Compile>
     <Compile Include="InmuebleSitioDeInteres.cs">
       <SubType>Form</SubType>
@@ -385,6 +379,9 @@
     <EmbeddedResource Include="CitaRegistrarCitaErrorCitaEncontrada.resx">
       <DependentUpon>CitaRegistrarCitaErrorCitaEncontrada.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CiudadIngresarCiudad.resx">
+      <DependentUpon>CiudadIngresarCiudad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -418,9 +415,6 @@
     <EmbeddedResource Include="InmuebleBancoRegistrarBancoErrorBancoExistente.resx">
       <DependentUpon>InmuebleBancoRegistrarBancoErrorBancoExistente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleIngresarCiudad.resx">
-      <DependentUpon>InmuebleIngresarCiudad.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="InmuebleMostrarVentaDeInmueble.resx">
       <DependentUpon>InmuebleMostrarVentaDeInmueble.cs</DependentUpon>
     </EmbeddedResource>
@@ -430,14 +424,8 @@
     <EmbeddedResource Include="InmuebleSectorMostrarSector.resx">
       <DependentUpon>InmuebleSectorMostrarSector.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleSectorMostrarSectorEliminarSector.resx">
-      <DependentUpon>InmuebleSectorMostrarSectorEliminarSector.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="InmuebleSectorMostrarSectorModificarSector.resx">
       <DependentUpon>InmuebleSectorMostrarSectorModificarSector.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleSectorRegistrarSector.resx">
-      <DependentUpon>InmuebleSectorRegistrarSector.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InmuebleMantenedorDeInmueble.resx">
       <DependentUpon>InmuebleMantenedorDeInmueble.cs</DependentUpon>
@@ -465,6 +453,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InmuebleMostrarInmueble.resx">
       <DependentUpon>InmuebleMostrarInmueble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InmuebleSectorRegistrarSector.resx">
+      <DependentUpon>InmuebleSectorRegistrarSector.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InmuebleSitioDeInteres.resx">
       <DependentUpon>InmuebleSitioDeInteres.cs</DependentUpon>

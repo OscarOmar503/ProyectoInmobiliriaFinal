@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logCiudad.cs" />
     <Compile Include="logCliente.cs" />
     <Compile Include="logPropietario.cs" />
+    <Compile Include="logSector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
