@@ -31,10 +31,12 @@ namespace CapaPresentacion
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cliente));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.dgvClientes = new System.Windows.Forms.DataGridView();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -44,8 +46,9 @@ namespace CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnRegistrar);
+            this.panel1.Controls.Add(this.dgvClientes);
+            this.panel1.Controls.Add(this.btnBuscar);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("OCR A Extended", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(-2, -1);
@@ -53,24 +56,33 @@ namespace CapaPresentacion
             this.panel1.Size = new System.Drawing.Size(804, 452);
             this.panel1.TabIndex = 3;
             // 
-            // button2
+            // btnRegistrar
             // 
-            this.button2.Location = new System.Drawing.Point(456, 161);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 76);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "BUSCAR CLIENTE";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Location = new System.Drawing.Point(139, 316);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(217, 76);
+            this.btnRegistrar.TabIndex = 7;
+            this.btnRegistrar.Text = "REGISTRAR CLIENTE";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
-            // button1
+            // dgvClientes
             // 
-            this.button1.Location = new System.Drawing.Point(132, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 76);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "REGISTRAR CLIENTE";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClientes.Location = new System.Drawing.Point(31, 90);
+            this.dgvClientes.Name = "dgvClientes";
+            this.dgvClientes.Size = new System.Drawing.Size(740, 188);
+            this.dgvClientes.TabIndex = 6;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(442, 316);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(217, 76);
+            this.btnBuscar.TabIndex = 5;
+            this.btnBuscar.Text = "BUSCAR CLIENTE";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // label1
             // 
@@ -80,7 +92,7 @@ namespace CapaPresentacion
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(324, 48);
+            this.label1.Location = new System.Drawing.Point(330, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 39);
             this.label1.TabIndex = 0;
@@ -96,6 +108,7 @@ namespace CapaPresentacion
             this.Text = "Cliente";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -103,8 +116,9 @@ namespace CapaPresentacion
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dgvClientes;
+        private System.Windows.Forms.Button btnRegistrar;
     }
 }

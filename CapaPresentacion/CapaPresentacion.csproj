@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>CapaPresentacion</RootNamespace>
     <AssemblyName>CapaPresentacion</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -93,12 +94,6 @@
     </Compile>
     <Compile Include="ClienteBuscarCliente.Designer.cs">
       <DependentUpon>ClienteBuscarCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ClienteBuscarClienteInhabilitarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ClienteBuscarClienteInhabilitarCliente.Designer.cs">
-      <DependentUpon>ClienteBuscarClienteInhabilitarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="ClienteBuscarClienteModificarDatos.cs">
       <SubType>Form</SubType>
@@ -396,9 +391,6 @@
     <EmbeddedResource Include="ClienteBuscarCliente.resx">
       <DependentUpon>ClienteBuscarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClienteBuscarClienteInhabilitarCliente.resx">
-      <DependentUpon>ClienteBuscarClienteInhabilitarCliente.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ClienteBuscarClienteModificarDatos.resx">
       <DependentUpon>ClienteBuscarClienteModificarDatos.cs</DependentUpon>
     </EmbeddedResource>
@@ -512,6 +504,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Propietario.resx">
       <DependentUpon>Propietario.cs</DependentUpon>
