@@ -304,10 +304,7 @@ C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Cita.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaBuscarCita.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaBuscarCitaCancelarCita.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaBuscarCitaModificarCita.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaRegistrarCita.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaRegistrarCitaErrorCitaEncontrada.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CiudadIngresarCiudad.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Cliente.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.ClienteBuscarCliente.resources
@@ -316,10 +313,7 @@ C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Inmueble.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBanco.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBancoMostrarBanco.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBancoMostrarBancoEliminarBanco.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBancoMostrarBancoModificarNombre.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBancoRegistrarBanco.resources
-C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleBancoRegistrarBancoErrorBancoExistente.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleMostrarVentaDeInmueble.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleSector.resources
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.InmuebleSectorMostrarSector.resources

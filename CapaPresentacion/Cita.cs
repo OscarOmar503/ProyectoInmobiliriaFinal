@@ -12,9 +12,35 @@ namespace CapaPresentacion
 {
     public partial class Cita : Form
     {
+        CitaRegistrarCita registrarCita;
+        CitaBuscarCita buscarCita;
         public Cita()
         {
             InitializeComponent();
         }
+
+     
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (registrarCita == null)
+            {
+                registrarCita = new CitaRegistrarCita(this);
+            }
+            this.Hide();
+            registrarCita.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (buscarCita == null)
+            {
+                buscarCita = new CitaBuscarCita(this);
+            }
+            this.Hide();
+            buscarCita.Show();
+        }
     }
+
 }
+

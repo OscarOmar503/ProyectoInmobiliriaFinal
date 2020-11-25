@@ -59,29 +59,11 @@
     <Compile Include="CitaBuscarCita.Designer.cs">
       <DependentUpon>CitaBuscarCita.cs</DependentUpon>
     </Compile>
-    <Compile Include="CitaBuscarCitaCancelarCita.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CitaBuscarCitaCancelarCita.Designer.cs">
-      <DependentUpon>CitaBuscarCitaCancelarCita.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CitaBuscarCitaModificarCita.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CitaBuscarCitaModificarCita.Designer.cs">
-      <DependentUpon>CitaBuscarCitaModificarCita.cs</DependentUpon>
-    </Compile>
     <Compile Include="CitaRegistrarCita.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CitaRegistrarCita.Designer.cs">
       <DependentUpon>CitaRegistrarCita.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CitaRegistrarCitaErrorCitaEncontrada.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CitaRegistrarCitaErrorCitaEncontrada.Designer.cs">
-      <DependentUpon>CitaRegistrarCitaErrorCitaEncontrada.cs</DependentUpon>
     </Compile>
     <Compile Include="CiudadIngresarCiudad.cs">
       <SubType>Form</SubType>
@@ -131,29 +113,11 @@
     <Compile Include="InmuebleBancoMostrarBanco.Designer.cs">
       <DependentUpon>InmuebleBancoMostrarBanco.cs</DependentUpon>
     </Compile>
-    <Compile Include="InmuebleBancoMostrarBancoEliminarBanco.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleBancoMostrarBancoEliminarBanco.Designer.cs">
-      <DependentUpon>InmuebleBancoMostrarBancoEliminarBanco.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InmuebleBancoMostrarBancoModificarNombre.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleBancoMostrarBancoModificarNombre.Designer.cs">
-      <DependentUpon>InmuebleBancoMostrarBancoModificarNombre.cs</DependentUpon>
-    </Compile>
     <Compile Include="InmuebleBancoRegistrarBanco.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InmuebleBancoRegistrarBanco.Designer.cs">
       <DependentUpon>InmuebleBancoRegistrarBanco.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InmuebleBancoRegistrarBancoErrorBancoExistente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InmuebleBancoRegistrarBancoErrorBancoExistente.Designer.cs">
-      <DependentUpon>InmuebleBancoRegistrarBancoErrorBancoExistente.cs</DependentUpon>
     </Compile>
     <Compile Include="InmuebleMostrarVentaDeInmueble.cs">
       <SubType>Form</SubType>
@@ -367,17 +331,8 @@
     <EmbeddedResource Include="CitaBuscarCita.resx">
       <DependentUpon>CitaBuscarCita.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CitaBuscarCitaCancelarCita.resx">
-      <DependentUpon>CitaBuscarCitaCancelarCita.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CitaBuscarCitaModificarCita.resx">
-      <DependentUpon>CitaBuscarCitaModificarCita.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CitaRegistrarCita.resx">
       <DependentUpon>CitaRegistrarCita.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CitaRegistrarCitaErrorCitaEncontrada.resx">
-      <DependentUpon>CitaRegistrarCitaErrorCitaEncontrada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CiudadIngresarCiudad.resx">
       <DependentUpon>CiudadIngresarCiudad.cs</DependentUpon>
@@ -403,17 +358,8 @@
     <EmbeddedResource Include="InmuebleBancoMostrarBanco.resx">
       <DependentUpon>InmuebleBancoMostrarBanco.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleBancoMostrarBancoEliminarBanco.resx">
-      <DependentUpon>InmuebleBancoMostrarBancoEliminarBanco.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleBancoMostrarBancoModificarNombre.resx">
-      <DependentUpon>InmuebleBancoMostrarBancoModificarNombre.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="InmuebleBancoRegistrarBanco.resx">
       <DependentUpon>InmuebleBancoRegistrarBanco.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InmuebleBancoRegistrarBancoErrorBancoExistente.resx">
-      <DependentUpon>InmuebleBancoRegistrarBancoErrorBancoExistente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InmuebleMostrarVentaDeInmueble.resx">
       <DependentUpon>InmuebleMostrarVentaDeInmueble.cs</DependentUpon>

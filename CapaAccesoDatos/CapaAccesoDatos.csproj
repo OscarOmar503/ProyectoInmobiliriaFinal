@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="datBanco.cs" />
+    <Compile Include="datCita.cs" />
     <Compile Include="datCiudad.cs" />
     <Compile Include="datCliente.cs" />
     <Compile Include="datPropietario.cs" />
