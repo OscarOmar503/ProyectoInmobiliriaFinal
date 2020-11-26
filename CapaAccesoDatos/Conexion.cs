@@ -21,7 +21,7 @@ namespace CapaAccesoDatos
         public SqlConnection Conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source = DESKTOP-8RLNNM8\\SQLEXPRESS; database = Inmobiliaria; Integrated security = true";
+            cn.ConnectionString = "Data Source = localhost\\SQLEXPRESS; database = Inmobiliaria; Integrated security = true";
 
             return cn;
         }

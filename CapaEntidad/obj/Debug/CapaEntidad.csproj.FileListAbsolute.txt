@@ -22,3 +22,15 @@ C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaEntidad\obj\
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaEntidad\obj\Debug\CapaEntidad.pdb

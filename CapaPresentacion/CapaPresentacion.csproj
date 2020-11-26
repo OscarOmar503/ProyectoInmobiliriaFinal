@@ -301,23 +301,11 @@
     <Compile Include="UsuarioMostrarDatosDeUsuario.Designer.cs">
       <DependentUpon>UsuarioMostrarDatosDeUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsuarioMostrarDatosDeUsuarioInhabilitarUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UsuarioMostrarDatosDeUsuarioInhabilitarUsuario.Designer.cs">
-      <DependentUpon>UsuarioMostrarDatosDeUsuarioInhabilitarUsuario.cs</DependentUpon>
-    </Compile>
     <Compile Include="UsuarioMostrarDatosDeUsuarioModificarDatos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UsuarioMostrarDatosDeUsuarioModificarDatos.Designer.cs">
       <DependentUpon>UsuarioMostrarDatosDeUsuarioModificarDatos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UsuarioMostrarVentasDeUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UsuarioMostrarVentasDeUsuario.Designer.cs">
-      <DependentUpon>UsuarioMostrarVentasDeUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="UsuarioRegistrarUsuario.cs">
       <SubType>Form</SubType>
@@ -461,14 +449,8 @@
     <EmbeddedResource Include="UsuarioMostrarDatosDeUsuario.resx">
       <DependentUpon>UsuarioMostrarDatosDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UsuarioMostrarDatosDeUsuarioInhabilitarUsuario.resx">
-      <DependentUpon>UsuarioMostrarDatosDeUsuarioInhabilitarUsuario.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UsuarioMostrarDatosDeUsuarioModificarDatos.resx">
       <DependentUpon>UsuarioMostrarDatosDeUsuarioModificarDatos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UsuarioMostrarVentasDeUsuario.resx">
-      <DependentUpon>UsuarioMostrarVentasDeUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsuarioRegistrarUsuario.resx">
       <DependentUpon>UsuarioRegistrarUsuario.cs</DependentUpon>

@@ -48,6 +48,8 @@
     <Compile Include="datCliente.cs" />
     <Compile Include="datPropietario.cs" />
     <Compile Include="datSector.cs" />
+    <Compile Include="datSitioInteres.cs" />
+    <Compile Include="datUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

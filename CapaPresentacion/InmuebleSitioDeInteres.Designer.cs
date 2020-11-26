@@ -1,5 +1,4 @@
-﻿
-namespace CapaPresentacion
+﻿namespace CapaPresentacion
 {
     partial class InmuebleSitioDeInteres
     {
@@ -31,8 +30,8 @@ namespace CapaPresentacion
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InmuebleSitioDeInteres));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBusca = new System.Windows.Forms.Button();
+            this.btnRegistra = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,32 +43,34 @@ namespace CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnBusca);
+            this.panel1.Controls.Add(this.btnRegistra);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("OCR A Extended", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(-2, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(804, 452);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 5;
             // 
-            // button2
+            // btnBusca
             // 
-            this.button2.Location = new System.Drawing.Point(456, 161);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 76);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "BUSCAR SITIO DE INTERÉS";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBusca.Location = new System.Drawing.Point(456, 161);
+            this.btnBusca.Name = "btnBusca";
+            this.btnBusca.Size = new System.Drawing.Size(217, 76);
+            this.btnBusca.TabIndex = 5;
+            this.btnBusca.Text = "MODIFICAR Y ELIMINAR SITIO DE INTERÉS";
+            this.btnBusca.UseVisualStyleBackColor = true;
+            this.btnBusca.Click += new System.EventHandler(this.btnBusca_Click);
             // 
-            // button1
+            // btnRegistra
             // 
-            this.button1.Location = new System.Drawing.Point(132, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 76);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "REGISTRAR SITIO DE INTERÉS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegistra.Location = new System.Drawing.Point(132, 161);
+            this.btnRegistra.Name = "btnRegistra";
+            this.btnRegistra.Size = new System.Drawing.Size(217, 76);
+            this.btnRegistra.TabIndex = 1;
+            this.btnRegistra.Text = "REGISTRAR SITIO DE INTERÉS";
+            this.btnRegistra.UseVisualStyleBackColor = true;
+            this.btnRegistra.Click += new System.EventHandler(this.btnRegistra_Click);
             // 
             // label1
             // 
@@ -92,7 +93,7 @@ namespace CapaPresentacion
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Name = "InmuebleSitioDeInteres";
-            this.Text = "Sitio De Interes";
+            this.Text = "InmuebleSitioDeInteres";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -102,8 +103,8 @@ namespace CapaPresentacion
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBusca;
+        private System.Windows.Forms.Button btnRegistra;
         private System.Windows.Forms.Label label1;
     }
 }

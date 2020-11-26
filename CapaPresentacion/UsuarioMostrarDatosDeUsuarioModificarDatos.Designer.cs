@@ -1,5 +1,4 @@
-﻿
-namespace CapaPresentacion
+﻿namespace CapaPresentacion
 {
     partial class UsuarioMostrarDatosDeUsuarioModificarDatos
     {
@@ -31,23 +30,18 @@ namespace CapaPresentacion
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UsuarioMostrarDatosDeUsuarioModificarDatos));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtAMaterno = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtAPaterno = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtEdad = new System.Windows.Forms.TextBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnIngresar = new System.Windows.Forms.Button();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -65,23 +59,18 @@ namespace CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.txtAMaterno);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.txtAPaterno);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtEdad);
+            this.panel1.Controls.Add(this.btnCancelar);
+            this.panel1.Controls.Add(this.btnIngresar);
+            this.panel1.Controls.Add(this.txtContraseña);
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.txtCargo);
+            this.panel1.Controls.Add(this.txtTelefono);
+            this.panel1.Controls.Add(this.txtCorreo);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
@@ -90,194 +79,146 @@ namespace CapaPresentacion
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("OCR A Extended", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(-2, -1);
+            this.panel1.Location = new System.Drawing.Point(-2, -13);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(752, 712);
-            this.panel1.TabIndex = 7;
+            this.panel1.TabIndex = 8;
             // 
-            // checkBox2
+            // txtAMaterno
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(462, 373);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(77, 21);
-            this.checkBox2.TabIndex = 25;
-            this.checkBox2.Text = "MUJER";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(322, 373);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(87, 21);
-            this.checkBox1.TabIndex = 24;
-            this.checkBox1.Text = "HOMBRE";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(62, 377);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(196, 20);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "INGRESE SU SEXO: ";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(529, 278);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(193, 27);
-            this.textBox9.TabIndex = 22;
+            this.txtAMaterno.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAMaterno.Location = new System.Drawing.Point(332, 225);
+            this.txtAMaterno.Name = "txtAMaterno";
+            this.txtAMaterno.Size = new System.Drawing.Size(305, 27);
+            this.txtAMaterno.TabIndex = 22;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(393, 281);
+            this.label10.Location = new System.Drawing.Point(62, 228);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 20);
+            this.label10.Size = new System.Drawing.Size(196, 20);
             this.label10.TabIndex = 21;
-            this.label10.Text = "A. MATERNO:";
+            this.label10.Text = "APELLIDO MATERNO:";
             // 
-            // textBox8
+            // txtAPaterno
             // 
-            this.textBox8.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(198, 278);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(176, 27);
-            this.textBox8.TabIndex = 20;
+            this.txtAPaterno.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAPaterno.Location = new System.Drawing.Point(332, 173);
+            this.txtAPaterno.Name = "txtAPaterno";
+            this.txtAPaterno.Size = new System.Drawing.Size(305, 27);
+            this.txtAPaterno.TabIndex = 20;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(62, 281);
+            this.label9.Location = new System.Drawing.Point(62, 176);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 20);
+            this.label9.Size = new System.Drawing.Size(207, 20);
             this.label9.TabIndex = 19;
-            this.label9.Text = "A. PATERNO:";
+            this.label9.Text = "A.PELLIDO PATERNO:";
             // 
-            // textBox5
+            // txtEdad
             // 
-            this.textBox5.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(294, 523);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(305, 27);
-            this.textBox5.TabIndex = 18;
+            this.txtEdad.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEdad.Location = new System.Drawing.Point(332, 377);
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(72, 27);
+            this.txtEdad.TabIndex = 16;
             // 
-            // label8
+            // btnCancelar
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(62, 530);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(185, 20);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "INGRESE SU DNI: ";
+            this.btnCancelar.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(407, 592);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(217, 76);
+            this.btnCancelar.TabIndex = 15;
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // textBox3
+            // btnIngresar
             // 
-            this.textBox3.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(294, 325);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(305, 27);
-            this.textBox3.TabIndex = 16;
+            this.btnIngresar.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Location = new System.Drawing.Point(107, 592);
+            this.btnIngresar.Name = "btnIngresar";
+            this.btnIngresar.Size = new System.Drawing.Size(217, 76);
+            this.btnIngresar.TabIndex = 14;
+            this.btnIngresar.Text = "ACEPTAR";
+            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click_1);
             // 
-            // button2
+            // txtContraseña
             // 
-            this.button2.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(407, 592);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 76);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "CANCELAR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.txtContraseña.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Location = new System.Drawing.Point(332, 326);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(305, 27);
+            this.txtContraseña.TabIndex = 13;
             // 
-            // button1
+            // txtNombre
             // 
-            this.button1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(107, 592);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 76);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "ACEPTAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtNombre.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(332, 122);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(305, 27);
+            this.txtNombre.TabIndex = 12;
             // 
-            // textBox7
+            // txtCargo
             // 
-            this.textBox7.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(353, 174);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(246, 27);
-            this.textBox7.TabIndex = 13;
+            this.txtCargo.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCargo.Location = new System.Drawing.Point(332, 471);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(305, 27);
+            this.txtCargo.TabIndex = 10;
             // 
-            // textBox6
+            // txtTelefono
             // 
-            this.textBox6.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(294, 228);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(305, 27);
-            this.textBox6.TabIndex = 12;
+            this.txtTelefono.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.Location = new System.Drawing.Point(332, 420);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(305, 27);
+            this.txtTelefono.TabIndex = 8;
             // 
-            // textBox4
+            // txtCorreo
             // 
-            this.textBox4.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(294, 471);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(305, 27);
-            this.textBox4.TabIndex = 10;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(332, 420);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(267, 27);
-            this.textBox2.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(294, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(305, 27);
-            this.textBox1.TabIndex = 7;
+            this.txtCorreo.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.Location = new System.Drawing.Point(332, 275);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(305, 27);
+            this.txtCorreo.TabIndex = 7;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(62, 177);
+            this.label7.Location = new System.Drawing.Point(64, 329);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(262, 20);
+            this.label7.Size = new System.Drawing.Size(141, 20);
             this.label7.TabIndex = 6;
-            this.label7.Text = "INGRESE SU CONTRASEÑA: ";
+            this.label7.Text = "CONTRASEÑA: ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(62, 235);
+            this.label6.Location = new System.Drawing.Point(62, 125);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(218, 20);
+            this.label6.Size = new System.Drawing.Size(97, 20);
             this.label6.TabIndex = 5;
-            this.label6.Text = "INGRESE SU NOMBRE: ";
+            this.label6.Text = "NOMBRE: ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(62, 328);
+            this.label5.Location = new System.Drawing.Point(62, 380);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(196, 20);
+            this.label5.Size = new System.Drawing.Size(75, 20);
             this.label5.TabIndex = 4;
-            this.label5.Text = "INGRESE SU EDAD: ";
+            this.label5.Text = "EDAD: ";
             // 
             // label4
             // 
@@ -285,9 +226,9 @@ namespace CapaPresentacion
             this.label4.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(62, 427);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(240, 20);
+            this.label4.Size = new System.Drawing.Size(119, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "INGRESE SU TELEFONO: ";
+            this.label4.Text = "TELEFONO: ";
             // 
             // label3
             // 
@@ -295,19 +236,19 @@ namespace CapaPresentacion
             this.label3.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(62, 478);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 20);
+            this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "INGRESE SU CARGO: ";
+            this.label3.Text = "CARGO: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("OCR A Extended", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 119);
+            this.label2.Location = new System.Drawing.Point(64, 278);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(207, 20);
+            this.label2.Size = new System.Drawing.Size(86, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "INGRESE SU CORREO:";
+            this.label2.Text = "CORREO:";
             // 
             // label1
             // 
@@ -327,7 +268,7 @@ namespace CapaPresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(748, 710);
+            this.ClientSize = new System.Drawing.Size(748, 687);
             this.Controls.Add(this.panel1);
             this.Name = "UsuarioMostrarDatosDeUsuarioModificarDatos";
             this.Text = "UsuarioMostrarDatosDeUsuarioModificarDatos";
@@ -340,23 +281,18 @@ namespace CapaPresentacion
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtAMaterno;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtAPaterno;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEdad;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnIngresar;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtCargo;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
