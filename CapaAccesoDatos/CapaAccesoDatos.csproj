@@ -49,7 +49,10 @@
     <Compile Include="datPropietario.cs" />
     <Compile Include="datSector.cs" />
     <Compile Include="datSitioInteres.cs" />
+<<<<<<< HEAD
     <Compile Include="datUsuario.cs" />
+=======
+>>>>>>> 31ea0177889338dec159d5e1338be83c95ed393b
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

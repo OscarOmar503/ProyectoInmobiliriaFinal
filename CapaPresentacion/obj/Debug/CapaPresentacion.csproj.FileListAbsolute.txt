@@ -416,6 +416,7 @@ C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\Deb
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\Debug\CapaLogica.pdb
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.Cita.resources
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.CitaBuscarCita.resources
@@ -476,3 +477,5 @@ C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\De
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\Debug\CapaLogica.pdb
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+=======
+>>>>>>> 31ea0177889338dec159d5e1338be83c95ed393b

@@ -49,7 +49,10 @@
     <Compile Include="logPropietario.cs" />
     <Compile Include="logSector.cs" />
     <Compile Include="logSitioInteres.cs" />
+<<<<<<< HEAD
     <Compile Include="logUsuario.cs" />
+=======
+>>>>>>> 31ea0177889338dec159d5e1338be83c95ed393b
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

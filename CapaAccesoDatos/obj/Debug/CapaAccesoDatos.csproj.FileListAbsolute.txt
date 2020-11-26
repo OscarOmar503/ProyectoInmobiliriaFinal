@@ -52,6 +52,7 @@ C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debu
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+<<<<<<< HEAD
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
@@ -61,3 +62,5 @@ C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Deb
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\Usuario\Desktop\fucion\ProyectoInmobiliriaFinal\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+=======
+>>>>>>> 31ea0177889338dec159d5e1338be83c95ed393b
