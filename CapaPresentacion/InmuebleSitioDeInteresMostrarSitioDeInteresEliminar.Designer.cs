@@ -1,5 +1,4 @@
-﻿
-namespace CapaPresentacion
+﻿namespace CapaPresentacion
 {
     partial class InmuebleSitioDeInteresMostrarSitioDeInteresEliminar
     {
@@ -32,7 +31,7 @@ namespace CapaPresentacion
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InmuebleSitioDeInteresMostrarSitioDeInteresEliminar));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_si = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -47,14 +46,14 @@ namespace CapaPresentacion
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btn_si);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("OCR A Extended", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(-2, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(423, 199);
-            this.panel1.TabIndex = 8;
+            this.panel1.TabIndex = 9;
             // 
             // button1
             // 
@@ -64,15 +63,17 @@ namespace CapaPresentacion
             this.button1.TabIndex = 13;
             this.button1.Text = "NO";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button3
+            // btn_si
             // 
-            this.button3.Location = new System.Drawing.Point(69, 127);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 44);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "SI";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_si.Location = new System.Drawing.Point(69, 127);
+            this.btn_si.Name = "btn_si";
+            this.btn_si.Size = new System.Drawing.Size(131, 44);
+            this.btn_si.TabIndex = 12;
+            this.btn_si.Text = "SI";
+            this.btn_si.UseVisualStyleBackColor = true;
+            this.btn_si.Click += new System.EventHandler(this.btn_si_Click_1);
             // 
             // label2
             // 
@@ -105,7 +106,7 @@ namespace CapaPresentacion
             this.ClientSize = new System.Drawing.Size(419, 197);
             this.Controls.Add(this.panel1);
             this.Name = "InmuebleSitioDeInteresMostrarSitioDeInteresEliminar";
-            this.Text = "Eliminar Sitio de Interés";
+            this.Text = "InmuebleSitioDeInteresMostrarSitioDeInteresEliminar";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -116,7 +117,7 @@ namespace CapaPresentacion
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_si;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

@@ -53,3 +53,14 @@ C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaLogica\obj\D
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\Usuario\Desktop\Nueva carpeta\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaEntidad.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\bin\Debug\CapaEntidad.pdb
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Lenovo\Desktop\fucion\ProyectoInmobiliriaFinal\CapaLogica\obj\Debug\CapaLogica.pdb
